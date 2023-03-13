@@ -1,0 +1,68 @@
+
+.App {
+  text-align: center;
+}
+
+@font-face {
+  font-family: 'Beantown';
+  src: local('Beantown'), url(./fonts/Beantown.ttf) format('truetype');
+}
+
+body {
+  background: url('./Imges/background.jpg') fixed center; 
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  font-family: Beantown;
+}
+
+.center {
+  padding-top: 15%;
+  width: 60%;
+  height: 60%;
+}
+
+.Title {
+  margin-top: 50px;
+  font-size: 75px;
+}
+
+.container {
+  text-align: center;
+  width: 1300px;
+  max-height: 640px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+h2{
+  margin-bottom: 0px;
+}
+
+.boardContainer{
+  display: inline-block;
+}
+
+.checkerContainer {
+  position: relative;
+}
+
+input{
+  font-family: Beantown;
+  padding-left: 12px;
+  margin: auto;
+
+  height: 30px;
+  width: 10%;
+  min-width: 200px;
+  max-width: 240px;
+
+  border-radius: 25px;
+  border: 2px solid #609;
+}
+
+h4{
+  color: rgb(0, 0, 0);
+  margin: 2px;
+}
